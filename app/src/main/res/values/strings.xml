@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="weather_is_key_n_lets_know">Weather Is Key\n Lets Know</string>
+    <string name="designed_by_aditya_kumar">Designed By Aditya Kumar</string>
+</resources>
