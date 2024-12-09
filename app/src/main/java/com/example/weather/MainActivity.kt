@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
             .build()
             .create(ApiInterface::class.java)
 
-        val response = retrofit.getWeatherData(cityName, "a6ba33d8c79afb7f64e5e4c56ca35cec", "metric")
+        val response = retrofit.getWeatherData(cityName, "//use your api key//", "metric")
         response.enqueue(object : Callback<Weather> {
             @SuppressLint("SetTextI18n")
             override fun onResponse(call: Call<Weather>, response: Response<Weather>) {
